@@ -1,0 +1,108 @@
+{
+    "page_url": "https://register.ccopyright.com.cn/r11.html#/application?back=1",
+    "page_title": "R11软件著作权登记申请",
+    "captured_at": "2026-09-02T04:45:07.333Z",
+    "steps": [
+        {
+            "name": "选择办理身份",
+            "active": true
+        },
+        {
+            "name": "软件申请信息",
+            "active": true
+        },
+        {
+            "name": "软件开发信息",
+            "active": false
+        },
+        {
+            "name": "软件功能与特点",
+            "active": false
+        },
+        {
+            "name": "确认信息",
+            "active": false
+        },
+        {
+            "name": "填报完成",
+            "active": false
+        }
+    ],
+    "field_count": 3,
+    "fields": [
+        {
+            "label": "权利取得方式",
+            "hidden": false,
+            "control": {
+                "type": "radio",
+                "options": [
+                    {
+                        "text": "原始取得",
+                        "value": "ORIGINAL",
+                        "selected": true
+                    },
+                    {
+                        "text": "继受取得",
+                        "value": "INHERITANCE",
+                        "selected": false
+                    }
+                ]
+            }
+        },
+        {
+            "label": "软件全称",
+            "hidden": false,
+            "tooltip_id": "10530",
+            "controls": [
+                {
+                    "type": "text",
+                    "placeholder": "请输入软件全称",
+                    "maxlength": "100",
+                    "disabled": false,
+                    "value": "AIMI智慧店长系统"
+                },
+                {
+                    "type": "text",
+                    "placeholder": "请输入软件简称，如无简称请留空，不要填写“无”。",
+                    "maxlength": "50",
+                    "disabled": false,
+                    "value": "通过分析服务过程对话，生成服务总结和报告"
+                },
+                {
+                    "type": "text",
+                    "placeholder": "请输入版本号",
+                    "maxlength": "20",
+                    "disabled": false,
+                    "value": "1.0"
+                }
+            ]
+        },
+        {
+            "label": "权利范围",
+            "hidden": false,
+            "control": {
+                "type": "radio",
+                "options": [
+                    {
+                        "text": "全部权利",
+                        "value": "1",
+                        "selected": true
+                    },
+                    {
+                        "text": "部分权利",
+                        "value": "2",
+                        "selected": false
+                    }
+                ]
+            }
+        }
+    ],
+    "visible_tooltips": [
+        "本表适用于著作权人原始取得著作权，以及通过转让、继承或承受取得著作权的软件著作权人申请登记时填写。应当使用简体中文填写申请表中各事项，软件名称可以使用英文填写。外国人申请登记的，软件名称、著作权人、申请人事项仅限使用中文或英文填写。申请人可以另附一页用其它标注出申请表的有关事项，留作备案。",
+        "自然人、法人或者非法人组织对其所开发的软件依法享有著作权。",
+        "通过受让、继承或者承受的方式取得著作权。",
+        "申请著作权登记的软件的全称。软件名称应简短明确，针对性强，申请材料中的软件名称应保持一致。",
+        "对软件全称进行简化的名称。如无简称请留空，不要填写“无”。",
+        "申请著作权登记的软件的版本号。版本号一般情况下按照“V数字”或“数字”的方式填写，例如：V1.0或2.0.1。"
+    ]
+}

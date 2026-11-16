@@ -1,0 +1,12 @@
+{
+  "name": "software-reg",
+  "version": "0.4.0",
+  "description": "计算机软件著作权（软著）登记申请助手：分析项目提取申请信息、差距分析与整改建议、申请规划",
+  "keywords": ["软著", "软件著作权", "software-copyright", "R11"],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "interface": {
+    "displayName": "软著申请助手",
+    "shortDescription": "分析软件项目，提取软著申请信息并给出整改建议"
+  }
+}

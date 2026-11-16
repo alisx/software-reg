@@ -1,0 +1,2418 @@
+{
+    "page_url": "https://register.ccopyright.com.cn/r11.html#/development?back=1",
+    "page_title": "R11软件著作权登记申请",
+    "captured_at": "2026-09-02T04:51:51.580Z",
+    "steps": [
+        {
+            "name": "选择办理身份",
+            "active": true
+        },
+        {
+            "name": "软件申请信息",
+            "active": true
+        },
+        {
+            "name": "软件开发信息",
+            "active": true
+        },
+        {
+            "name": "软件功能与特点",
+            "active": false
+        },
+        {
+            "name": "确认信息",
+            "active": false
+        },
+        {
+            "name": "填报完成",
+            "active": false
+        }
+    ],
+    "field_count": 6,
+    "fields": [
+        {
+            "label": "软件分类",
+            "hidden": false,
+            "control": {
+                "type": "select",
+                "placeholder": "请选择软件分类",
+                "selected": "应用软件",
+                "disabled": false,
+                "options": [
+                    {
+                        "text": "应用软件",
+                        "selected": true
+                    },
+                    {
+                        "text": "嵌入式软件",
+                        "selected": false
+                    },
+                    {
+                        "text": "中间件",
+                        "selected": false
+                    },
+                    {
+                        "text": "操作系统",
+                        "selected": false
+                    }
+                ]
+            }
+        },
+        {
+            "label": "软件说明",
+            "hidden": false,
+            "control": {
+                "type": "radio",
+                "options": [
+                    {
+                        "text": "原创",
+                        "value": "ORIGINAL",
+                        "selected": true
+                    },
+                    {
+                        "text": "修改（含翻译软件、合成软件）",
+                        "value": "MODIFY",
+                        "selected": false
+                    }
+                ]
+            }
+        },
+        {
+            "label": "开发方式",
+            "hidden": false,
+            "control": {
+                "type": "radio",
+                "options": [
+                    {
+                        "text": "单独开发",
+                        "value": "SINGLE",
+                        "selected": false
+                    },
+                    {
+                        "text": "合作开发",
+                        "value": "COOPERATE",
+                        "selected": true
+                    },
+                    {
+                        "text": "委托开发",
+                        "value": "COMMISSION",
+                        "selected": false
+                    },
+                    {
+                        "text": "下达任务开发",
+                        "value": "TASK",
+                        "selected": false
+                    }
+                ]
+            },
+            "sub_fields": [
+                {
+                    "label": "是否多个著作权人共同享有软件著作权",
+                    "hidden": false,
+                    "conditional": true,
+                    "control": {
+                        "type": "radio",
+                        "options": [
+                            {
+                                "text": "是",
+                                "value": "0",
+                                "selected": true
+                            },
+                            {
+                                "text": "否",
+                                "value": "1",
+                                "selected": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "label": "开发完成日期",
+            "hidden": false,
+            "tooltip_id": "47876",
+            "control": {
+                "type": "date",
+                "placeholder": "请选择日期",
+                "selected": "2026-08-01"
+            }
+        },
+        {
+            "label": "发表状态",
+            "hidden": false,
+            "controls": [
+                {
+                    "type": "radio",
+                    "options": [
+                        {
+                            "text": "未发表",
+                            "value": "0",
+                            "selected": false
+                        },
+                        {
+                            "text": "已发表",
+                            "value": "1",
+                            "selected": true
+                        }
+                    ]
+                },
+                {
+                    "type": "date",
+                    "placeholder": "请选择日期",
+                    "selected": "2026-08-02"
+                },
+                {
+                    "type": "cascader",
+                    "placeholder": "请选择地区",
+                    "selected": "北京 / 海淀",
+                    "tabs": [
+                        "省份",
+                        "城市"
+                    ],
+                    "loaded_options": [
+                        {
+                            "text": "东城",
+                            "selected": false
+                        },
+                        {
+                            "text": "西城",
+                            "selected": false
+                        },
+                        {
+                            "text": "朝阳",
+                            "selected": false
+                        },
+                        {
+                            "text": "丰台",
+                            "selected": false
+                        },
+                        {
+                            "text": "石景山",
+                            "selected": false
+                        },
+                        {
+                            "text": "海淀",
+                            "selected": true
+                        },
+                        {
+                            "text": "门头沟",
+                            "selected": false
+                        },
+                        {
+                            "text": "房山",
+                            "selected": false
+                        },
+                        {
+                            "text": "通州",
+                            "selected": false
+                        },
+                        {
+                            "text": "顺义",
+                            "selected": false
+                        },
+                        {
+                            "text": "昌平",
+                            "selected": false
+                        },
+                        {
+                            "text": "大兴",
+                            "selected": false
+                        },
+                        {
+                            "text": "平谷",
+                            "selected": false
+                        },
+                        {
+                            "text": "怀柔",
+                            "selected": false
+                        },
+                        {
+                            "text": "密云",
+                            "selected": false
+                        },
+                        {
+                            "text": "延庆",
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "sub_fields": [
+                {
+                    "label": "首次发表日期",
+                    "hidden": false,
+                    "conditional": true,
+                    "control": {
+                        "type": "date",
+                        "placeholder": "请选择日期",
+                        "selected": "2026-08-02"
+                    }
+                },
+                {
+                    "label": "首次发表地点",
+                    "hidden": false,
+                    "conditional": true,
+                    "controls": [
+                        {
+                            "type": "select",
+                            "placeholder": "请选择国家",
+                            "selected": "中国",
+                            "disabled": false,
+                            "options": [
+                                {
+                                    "text": "中国",
+                                    "selected": true
+                                },
+                                {
+                                    "text": "阿鲁巴",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿富汗",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "安哥拉",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "安圭拉",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "奥兰群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿尔巴尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "安道尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "荷属安地列斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿拉伯联合酋长国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿根廷",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "亚美尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿森松岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "美属萨摩亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "南极洲",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "法属南部领地",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "安提瓜岛和巴布达",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "澳大利亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "奥地利",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿塞拜疆",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "布隆迪",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "比利时",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "贝宁",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "布基纳法索",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "孟加拉",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "保加利亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴林",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴哈马",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "波斯尼亚和黑塞哥维那",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "白俄罗斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "伯利兹",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "百慕大",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "玻利维亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴西",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴巴多斯岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "文莱",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "不丹",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "布韦岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "博茨瓦纳",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "中非共和国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "加拿大",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "科科斯群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "瑞士",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "智利",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "科特迪瓦共和国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "喀麦隆",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "刚果民主共和国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "刚果",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "库克群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "哥伦比亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "科摩罗",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "佛得角",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "哥斯达黎加",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "古巴",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣诞岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "开曼群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "塞浦路斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "捷克共和国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "德国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "吉布提",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "多米尼克",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "丹麦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "多米尼加共和国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿尔及利亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "厄瓜多尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "埃及",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "厄立特里亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "西班牙",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "爱沙尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "埃塞俄比亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "芬兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "斐济",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "弗兰克群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "法国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "法罗群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "密克罗尼西亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "加蓬",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "英国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "格鲁吉亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "乔治亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "格恩西岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "加纳",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "直布罗陀",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "几内亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "瓜德罗普",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "冈比亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "几内亚比绍",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "希腊",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "格林纳达",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "格陵兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "危地马拉",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "法属圭亚那",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "关岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圭亚那",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "赫德和麦克唐纳群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "洪都拉斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "克罗地亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "海地",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "匈牙利",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "印度尼西亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "曼岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "印度",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "英属印度洋领地",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "爱尔兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "伊朗",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "伊拉克",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "冰岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "以色列",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "意大利",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "牙买加",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "泽西岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "约旦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "日本",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "哈萨克斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "肯尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "吉尔吉斯斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "柬埔寨",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "基里巴斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣基茨和尼维斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "韩国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "科威特",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "老挝",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "黎巴嫩",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "利比里亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "利比亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣卢西亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "列支敦士登",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "斯里兰卡",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "莱索托",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "立陶宛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "卢森堡",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "拉脱维亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "摩洛哥",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "摩纳哥",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "摩尔多瓦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马达加斯加",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马尔代夫",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "墨西哥",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马绍尔群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马其顿",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马里",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马耳他",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "缅甸",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "蒙古",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "北马里亚纳群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "莫桑比克",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "毛里塔尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "蒙特塞拉特",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马提尼克",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "毛里求斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马拉维",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马来西亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "马约特岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "纳米比亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "新喀里多尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "尼日尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "诺福克",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "尼日利亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "尼加拉瓜",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "纽埃",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "荷兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "挪威",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "尼泊尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "瑙鲁",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "新西兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "阿曼",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴基斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴拿马",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "皮特凯恩",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "秘鲁",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "菲律宾",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "帕劳群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴布亚新几内亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "波兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "波多黎各",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "朝鲜",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "葡萄牙",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴拉圭",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "巴勒斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "法属波利尼西亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "卡塔尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "留尼旺岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "罗马尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "俄罗斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "卢旺达",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "沙特阿拉伯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "塞尔维亚,黑山",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "苏丹",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "塞内加尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "新加坡",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "南乔治亚和南桑德威奇群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣赫勒拿",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "斯瓦尔巴和扬马廷",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "所罗门群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "塞拉利昂",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "萨尔瓦多",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣马力诺",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "索马里",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣皮埃尔和米克隆群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣多美和普林西比",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "苏里南",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "斯洛伐克",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "斯洛文尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "瑞典",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "斯威士兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "塞舌尔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "叙利亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "特里斯坦达昆哈",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "特克斯和凯克特斯群岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "乍得",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "多哥",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "泰国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "塔吉克斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "托克劳",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "土库曼斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "东帝汶",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "汤加",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "特立尼达和多巴哥",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "突尼斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "土耳其",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "图瓦卢",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "坦桑尼亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "乌干达",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "乌克兰",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "美属外岛",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "乌拉圭",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "美国",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "乌兹别克斯坦",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "梵蒂冈",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "圣文森特和格林纳丁斯",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "委内瑞拉",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "维尔京群岛，英属",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "维尔京群岛，美属",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "越南",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "瓦努阿图",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "瓦利斯和福图纳",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "萨摩亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "也门",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "南非",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "赞比亚",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "津巴布韦",
+                                    "selected": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "cascader",
+                            "placeholder": "请选择地区",
+                            "selected": "北京 / 海淀",
+                            "tabs": [
+                                "省份",
+                                "城市"
+                            ],
+                            "loaded_options": [
+                                {
+                                    "text": "东城",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "西城",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "朝阳",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "丰台",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "石景山",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "海淀",
+                                    "selected": true
+                                },
+                                {
+                                    "text": "门头沟",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "房山",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "通州",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "顺义",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "昌平",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "大兴",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "平谷",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "怀柔",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "密云",
+                                    "selected": false
+                                },
+                                {
+                                    "text": "延庆",
+                                    "selected": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "著作权人",
+            "hidden": false,
+            "control": {
+                "type": "formGroup",
+                "repeatable": true,
+                "sub_fields": [
+                    {
+                        "type": "select",
+                        "placeholder": "请选择国家",
+                        "selected": "中国",
+                        "disabled": true,
+                        "options": [
+                            {
+                                "text": "中国",
+                                "selected": true
+                            },
+                            {
+                                "text": "阿鲁巴",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿富汗",
+                                "selected": false
+                            },
+                            {
+                                "text": "安哥拉",
+                                "selected": false
+                            },
+                            {
+                                "text": "安圭拉",
+                                "selected": false
+                            },
+                            {
+                                "text": "奥兰群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿尔巴尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "安道尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "荷属安地列斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿拉伯联合酋长国",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿根廷",
+                                "selected": false
+                            },
+                            {
+                                "text": "亚美尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿森松岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "美属萨摩亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "南极洲",
+                                "selected": false
+                            },
+                            {
+                                "text": "法属南部领地",
+                                "selected": false
+                            },
+                            {
+                                "text": "安提瓜岛和巴布达",
+                                "selected": false
+                            },
+                            {
+                                "text": "澳大利亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "奥地利",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿塞拜疆",
+                                "selected": false
+                            },
+                            {
+                                "text": "布隆迪",
+                                "selected": false
+                            },
+                            {
+                                "text": "比利时",
+                                "selected": false
+                            },
+                            {
+                                "text": "贝宁",
+                                "selected": false
+                            },
+                            {
+                                "text": "布基纳法索",
+                                "selected": false
+                            },
+                            {
+                                "text": "孟加拉",
+                                "selected": false
+                            },
+                            {
+                                "text": "保加利亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴林",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴哈马",
+                                "selected": false
+                            },
+                            {
+                                "text": "波斯尼亚和黑塞哥维那",
+                                "selected": false
+                            },
+                            {
+                                "text": "白俄罗斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "伯利兹",
+                                "selected": false
+                            },
+                            {
+                                "text": "百慕大",
+                                "selected": false
+                            },
+                            {
+                                "text": "玻利维亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴西",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴巴多斯岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "文莱",
+                                "selected": false
+                            },
+                            {
+                                "text": "不丹",
+                                "selected": false
+                            },
+                            {
+                                "text": "布韦岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "博茨瓦纳",
+                                "selected": false
+                            },
+                            {
+                                "text": "中非共和国",
+                                "selected": false
+                            },
+                            {
+                                "text": "加拿大",
+                                "selected": false
+                            },
+                            {
+                                "text": "科科斯群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "瑞士",
+                                "selected": false
+                            },
+                            {
+                                "text": "智利",
+                                "selected": false
+                            },
+                            {
+                                "text": "科特迪瓦共和国",
+                                "selected": false
+                            },
+                            {
+                                "text": "喀麦隆",
+                                "selected": false
+                            },
+                            {
+                                "text": "刚果民主共和国",
+                                "selected": false
+                            },
+                            {
+                                "text": "刚果",
+                                "selected": false
+                            },
+                            {
+                                "text": "库克群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "哥伦比亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "科摩罗",
+                                "selected": false
+                            },
+                            {
+                                "text": "佛得角",
+                                "selected": false
+                            },
+                            {
+                                "text": "哥斯达黎加",
+                                "selected": false
+                            },
+                            {
+                                "text": "古巴",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣诞岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "开曼群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "塞浦路斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "捷克共和国",
+                                "selected": false
+                            },
+                            {
+                                "text": "德国",
+                                "selected": false
+                            },
+                            {
+                                "text": "吉布提",
+                                "selected": false
+                            },
+                            {
+                                "text": "多米尼克",
+                                "selected": false
+                            },
+                            {
+                                "text": "丹麦",
+                                "selected": false
+                            },
+                            {
+                                "text": "多米尼加共和国",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿尔及利亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "厄瓜多尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "埃及",
+                                "selected": false
+                            },
+                            {
+                                "text": "厄立特里亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "西班牙",
+                                "selected": false
+                            },
+                            {
+                                "text": "爱沙尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "埃塞俄比亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "芬兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "斐济",
+                                "selected": false
+                            },
+                            {
+                                "text": "弗兰克群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "法国",
+                                "selected": false
+                            },
+                            {
+                                "text": "法罗群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "密克罗尼西亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "加蓬",
+                                "selected": false
+                            },
+                            {
+                                "text": "英国",
+                                "selected": false
+                            },
+                            {
+                                "text": "格鲁吉亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "乔治亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "格恩西岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "加纳",
+                                "selected": false
+                            },
+                            {
+                                "text": "直布罗陀",
+                                "selected": false
+                            },
+                            {
+                                "text": "几内亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "瓜德罗普",
+                                "selected": false
+                            },
+                            {
+                                "text": "冈比亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "几内亚比绍",
+                                "selected": false
+                            },
+                            {
+                                "text": "希腊",
+                                "selected": false
+                            },
+                            {
+                                "text": "格林纳达",
+                                "selected": false
+                            },
+                            {
+                                "text": "格陵兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "危地马拉",
+                                "selected": false
+                            },
+                            {
+                                "text": "法属圭亚那",
+                                "selected": false
+                            },
+                            {
+                                "text": "关岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "圭亚那",
+                                "selected": false
+                            },
+                            {
+                                "text": "赫德和麦克唐纳群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "洪都拉斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "克罗地亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "海地",
+                                "selected": false
+                            },
+                            {
+                                "text": "匈牙利",
+                                "selected": false
+                            },
+                            {
+                                "text": "印度尼西亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "曼岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "印度",
+                                "selected": false
+                            },
+                            {
+                                "text": "英属印度洋领地",
+                                "selected": false
+                            },
+                            {
+                                "text": "爱尔兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "伊朗",
+                                "selected": false
+                            },
+                            {
+                                "text": "伊拉克",
+                                "selected": false
+                            },
+                            {
+                                "text": "冰岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "以色列",
+                                "selected": false
+                            },
+                            {
+                                "text": "意大利",
+                                "selected": false
+                            },
+                            {
+                                "text": "牙买加",
+                                "selected": false
+                            },
+                            {
+                                "text": "泽西岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "约旦",
+                                "selected": false
+                            },
+                            {
+                                "text": "日本",
+                                "selected": false
+                            },
+                            {
+                                "text": "哈萨克斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "肯尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "吉尔吉斯斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "柬埔寨",
+                                "selected": false
+                            },
+                            {
+                                "text": "基里巴斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣基茨和尼维斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "韩国",
+                                "selected": false
+                            },
+                            {
+                                "text": "科威特",
+                                "selected": false
+                            },
+                            {
+                                "text": "老挝",
+                                "selected": false
+                            },
+                            {
+                                "text": "黎巴嫩",
+                                "selected": false
+                            },
+                            {
+                                "text": "利比里亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "利比亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣卢西亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "列支敦士登",
+                                "selected": false
+                            },
+                            {
+                                "text": "斯里兰卡",
+                                "selected": false
+                            },
+                            {
+                                "text": "莱索托",
+                                "selected": false
+                            },
+                            {
+                                "text": "立陶宛",
+                                "selected": false
+                            },
+                            {
+                                "text": "卢森堡",
+                                "selected": false
+                            },
+                            {
+                                "text": "拉脱维亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "摩洛哥",
+                                "selected": false
+                            },
+                            {
+                                "text": "摩纳哥",
+                                "selected": false
+                            },
+                            {
+                                "text": "摩尔多瓦",
+                                "selected": false
+                            },
+                            {
+                                "text": "马达加斯加",
+                                "selected": false
+                            },
+                            {
+                                "text": "马尔代夫",
+                                "selected": false
+                            },
+                            {
+                                "text": "墨西哥",
+                                "selected": false
+                            },
+                            {
+                                "text": "马绍尔群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "马其顿",
+                                "selected": false
+                            },
+                            {
+                                "text": "马里",
+                                "selected": false
+                            },
+                            {
+                                "text": "马耳他",
+                                "selected": false
+                            },
+                            {
+                                "text": "缅甸",
+                                "selected": false
+                            },
+                            {
+                                "text": "蒙古",
+                                "selected": false
+                            },
+                            {
+                                "text": "北马里亚纳群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "莫桑比克",
+                                "selected": false
+                            },
+                            {
+                                "text": "毛里塔尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "蒙特塞拉特",
+                                "selected": false
+                            },
+                            {
+                                "text": "马提尼克",
+                                "selected": false
+                            },
+                            {
+                                "text": "毛里求斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "马拉维",
+                                "selected": false
+                            },
+                            {
+                                "text": "马来西亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "马约特岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "纳米比亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "新喀里多尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "尼日尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "诺福克",
+                                "selected": false
+                            },
+                            {
+                                "text": "尼日利亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "尼加拉瓜",
+                                "selected": false
+                            },
+                            {
+                                "text": "纽埃",
+                                "selected": false
+                            },
+                            {
+                                "text": "荷兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "挪威",
+                                "selected": false
+                            },
+                            {
+                                "text": "尼泊尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "瑙鲁",
+                                "selected": false
+                            },
+                            {
+                                "text": "新西兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "阿曼",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴基斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴拿马",
+                                "selected": false
+                            },
+                            {
+                                "text": "皮特凯恩",
+                                "selected": false
+                            },
+                            {
+                                "text": "秘鲁",
+                                "selected": false
+                            },
+                            {
+                                "text": "菲律宾",
+                                "selected": false
+                            },
+                            {
+                                "text": "帕劳群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴布亚新几内亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "波兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "波多黎各",
+                                "selected": false
+                            },
+                            {
+                                "text": "朝鲜",
+                                "selected": false
+                            },
+                            {
+                                "text": "葡萄牙",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴拉圭",
+                                "selected": false
+                            },
+                            {
+                                "text": "巴勒斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "法属波利尼西亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "卡塔尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "留尼旺岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "罗马尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "俄罗斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "卢旺达",
+                                "selected": false
+                            },
+                            {
+                                "text": "沙特阿拉伯",
+                                "selected": false
+                            },
+                            {
+                                "text": "塞尔维亚,黑山",
+                                "selected": false
+                            },
+                            {
+                                "text": "苏丹",
+                                "selected": false
+                            },
+                            {
+                                "text": "塞内加尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "新加坡",
+                                "selected": false
+                            },
+                            {
+                                "text": "南乔治亚和南桑德威奇群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣赫勒拿",
+                                "selected": false
+                            },
+                            {
+                                "text": "斯瓦尔巴和扬马廷",
+                                "selected": false
+                            },
+                            {
+                                "text": "所罗门群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "塞拉利昂",
+                                "selected": false
+                            },
+                            {
+                                "text": "萨尔瓦多",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣马力诺",
+                                "selected": false
+                            },
+                            {
+                                "text": "索马里",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣皮埃尔和米克隆群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣多美和普林西比",
+                                "selected": false
+                            },
+                            {
+                                "text": "苏里南",
+                                "selected": false
+                            },
+                            {
+                                "text": "斯洛伐克",
+                                "selected": false
+                            },
+                            {
+                                "text": "斯洛文尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "瑞典",
+                                "selected": false
+                            },
+                            {
+                                "text": "斯威士兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "塞舌尔",
+                                "selected": false
+                            },
+                            {
+                                "text": "叙利亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "特里斯坦达昆哈",
+                                "selected": false
+                            },
+                            {
+                                "text": "特克斯和凯克特斯群岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "乍得",
+                                "selected": false
+                            },
+                            {
+                                "text": "多哥",
+                                "selected": false
+                            },
+                            {
+                                "text": "泰国",
+                                "selected": false
+                            },
+                            {
+                                "text": "塔吉克斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "托克劳",
+                                "selected": false
+                            },
+                            {
+                                "text": "土库曼斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "东帝汶",
+                                "selected": false
+                            },
+                            {
+                                "text": "汤加",
+                                "selected": false
+                            },
+                            {
+                                "text": "特立尼达和多巴哥",
+                                "selected": false
+                            },
+                            {
+                                "text": "突尼斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "土耳其",
+                                "selected": false
+                            },
+                            {
+                                "text": "图瓦卢",
+                                "selected": false
+                            },
+                            {
+                                "text": "坦桑尼亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "乌干达",
+                                "selected": false
+                            },
+                            {
+                                "text": "乌克兰",
+                                "selected": false
+                            },
+                            {
+                                "text": "美属外岛",
+                                "selected": false
+                            },
+                            {
+                                "text": "乌拉圭",
+                                "selected": false
+                            },
+                            {
+                                "text": "美国",
+                                "selected": false
+                            },
+                            {
+                                "text": "乌兹别克斯坦",
+                                "selected": false
+                            },
+                            {
+                                "text": "梵蒂冈",
+                                "selected": false
+                            },
+                            {
+                                "text": "圣文森特和格林纳丁斯",
+                                "selected": false
+                            },
+                            {
+                                "text": "委内瑞拉",
+                                "selected": false
+                            },
+                            {
+                                "text": "维尔京群岛，英属",
+                                "selected": false
+                            },
+                            {
+                                "text": "维尔京群岛，美属",
+                                "selected": false
+                            },
+                            {
+                                "text": "越南",
+                                "selected": false
+                            },
+                            {
+                                "text": "瓦努阿图",
+                                "selected": false
+                            },
+                            {
+                                "text": "瓦利斯和福图纳",
+                                "selected": false
+                            },
+                            {
+                                "text": "萨摩亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "也门",
+                                "selected": false
+                            },
+                            {
+                                "text": "南非",
+                                "selected": false
+                            },
+                            {
+                                "text": "赞比亚",
+                                "selected": false
+                            },
+                            {
+                                "text": "津巴布韦",
+                                "selected": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "cascader",
+                        "placeholder": "请选择地区",
+                        "selected": "陕西 / 宝鸡",
+                        "tabs": [
+                            "省份",
+                            "城市"
+                        ],
+                        "loaded_options": [
+                            {
+                                "text": "西安",
+                                "selected": false
+                            },
+                            {
+                                "text": "铜川",
+                                "selected": false
+                            },
+                            {
+                                "text": "宝鸡",
+                                "selected": true
+                            },
+                            {
+                                "text": "咸阳",
+                                "selected": false
+                            },
+                            {
+                                "text": "渭南",
+                                "selected": false
+                            },
+                            {
+                                "text": "延安",
+                                "selected": false
+                            },
+                            {
+                                "text": "汉中",
+                                "selected": false
+                            },
+                            {
+                                "text": "榆林",
+                                "selected": false
+                            },
+                            {
+                                "text": "安康",
+                                "selected": false
+                            },
+                            {
+                                "text": "商洛",
+                                "selected": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "select",
+                        "placeholder": "请选择身份类别",
+                        "selected": "自然人",
+                        "disabled": true,
+                        "options": [
+                            {
+                                "text": "自然人",
+                                "selected": true
+                            },
+                            {
+                                "text": "企业法人",
+                                "selected": false
+                            },
+                            {
+                                "text": "机关法人",
+                                "selected": false
+                            },
+                            {
+                                "text": "事业单位法人",
+                                "selected": false
+                            },
+                            {
+                                "text": "社会团体法人",
+                                "selected": false
+                            },
+                            {
+                                "text": "其他组织",
+                                "selected": false
+                            },
+                            {
+                                "text": "其他",
+                                "selected": false
+                            },
+                            {
+                                "text": "保密单位",
+                                "selected": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "select",
+                        "placeholder": "请选择证件类型",
+                        "selected": "居民身份证",
+                        "disabled": true,
+                        "options": [
+                            {
+                                "text": "居民身份证",
+                                "selected": true
+                            },
+                            {
+                                "text": "军人身份证明（军/警官证、士兵证等）",
+                                "selected": false
+                            },
+                            {
+                                "text": "户口本",
+                                "selected": false
+                            },
+                            {
+                                "text": "其他有效证件",
+                                "selected": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "visible_tooltips": [
+        "本表适用于著作权人原始取得著作权，以及通过转让、继承或承受取得著作权的软件著作权人申请登记时填写。应当使用简体中文填写申请表中各事项，软件名称可以使用英文填写。外国人申请登记的，软件名称、著作权人、申请人事项仅限使用中文或英文填写。申请人可以另附一页用其它标注出申请表的有关事项，留作备案。",
+        "独立开发的软件。",
+        "对原有软件修改后形成的在功能或者性能方面有重要改进的软件。",
+        "只依靠自身条件单独开发完成的软件。",
+        "由两个以上的自然人、法人或者非法人组织合作开发的软件。应提交证明著作权归属的书面合作开发合同或协议。",
+        "接受自然人、法人或者非法人组织委托开发的软件。应提交证明著作权归属的书面委托开发合同或协议。",
+        "由国家机关下达任务开发的软件。应提交证明著作权归属的书面项目任务书或合同。",
+        "指软件开发者将该软件全部固定在某种有形物体上的日期。",
+        "软件未公之于众。",
+        "软件已公之于众。"
+    ]
+}
